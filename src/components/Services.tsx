@@ -63,7 +63,7 @@ const Services = () => {
           />
         </div>
         
-        <div className="mt-16 bg-taxi-DEFAULT text-white rounded-lg p-8 shadow-xl">
+        <div className="mt-16 bg-taxi-DEFAULT text-black rounded-lg p-8 shadow-xl">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-3/4 mb-8 md:mb-0 md:pr-8">
               <h3 className="text-2xl font-bold mb-4">Service conventionné</h3>

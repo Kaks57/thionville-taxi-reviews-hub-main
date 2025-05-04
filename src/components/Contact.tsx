@@ -5,12 +5,12 @@ import MapLocation from "./MapLocation";
 
 const Contact = () => {
   return (
-    <section id="contact" className="section bg-taxi-DEFAULT text-white">
+    <section id="contact" className="section bg-taxi-DEFAULT text-black">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Contactez-nous</h2>
-            <p className="text-lg text-white mb-8">
+            <p className="text-lg text-black mb-8">
               Besoin d'un taxi à Thionville ? Contactez M.A. TAXI ADS pour un service fiable, 
               rapide et confortable. Disponible pour tous vos déplacements.
             </p>
@@ -22,7 +22,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Téléphone</h3>
-                  <a href="tel:627732718" className="text-white/80 hover:text-taxi-accent transition-colors">
+                  <a href="tel:627732718" className="text-black/80 hover:text-taxi-accent transition-colors">
                     06 27 73 27 18
                   </a>
                 </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Zone de service</h3>
-                  <p className="text-white/80">
+                  <p className="text-black/80">
                     Thionville et ses environs
                   </p>
                 </div>
@@ -46,7 +46,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Disponibilité</h3>
-                  <p className="text-white/80">
+                  <p className="text-black/80">
                     7j/7, service jour et nuit
                   </p>
                 </div>
